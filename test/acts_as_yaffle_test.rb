@@ -34,6 +34,8 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should have StaticPages#index in h1" do
     get static_pages_index_url
     assert_select "h1", "StaticPages#index"
+    assert_select "h2", "PRUEBA"
+
     # assert_select "ul.navigation" do
     #   assert_select "li.menu_item"
     # end
