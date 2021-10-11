@@ -1,6 +1,9 @@
 # MultiRender
 Once you provide to a MultiRenderer instance the data it needs in each partial you are rendering in your view, the instance will render the given partial with it's local variables. This is usefull if you have a big view on your project, and you are rendering multiple arrays. Having all your iterations running on your controller can help you to detect a bottle neck that is causing your web page to run slow.
 
+## Example
+You can view an example on [this web repo](https://github.com/KarlHeitmann/multi_render_rails_test).
+
 ## Usage
 
 You can see a working example on the folder `test/dummy`, on the controller `static_pages` and in it's associated view.
