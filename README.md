@@ -25,6 +25,7 @@ The method will search in it's internal hash the key `:prueba`, and when found, 
 
 ## TODO
 
+- Check **[solargraph](https://solargraph.org/guides/type-checking)** it would be nice to have some documentation on yard, so our methods will get typed checked 
 - Add a new alias method to `.add`, so that you can use the `<<` operator to add more data to MultiRender.
 - Add a alias so that it is not so verbose to call `@multi.render_partial(:prueba, method(:render))`. Something like `@multi(:prueba, method(:render))`
 - The lambda function is working OK on the MR class. But it would be better to include directly the `render` function inside the class.
